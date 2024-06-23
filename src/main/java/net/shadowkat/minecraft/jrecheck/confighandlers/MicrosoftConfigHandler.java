@@ -1,9 +1,7 @@
 package net.shadowkat.minecraft.jrecheck.confighandlers;
 
 import com.google.gson.*;
-import com.google.gson.stream.JsonWriter;
 import net.minecraft.client.Minecraft;
-import net.shadowkat.minecraft.jrecheck.JRECheck;
 import net.shadowkat.minecraft.jrecheck.Utils;
 
 import java.io.*;

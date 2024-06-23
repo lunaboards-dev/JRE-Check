@@ -1,9 +1,6 @@
 package net.shadowkat.minecraft.jrecheck;
 
-import com.google.gson.JsonStreamParser;
 import net.minecraft.client.Minecraft;
-import net.minecraft.launchwrapper.Launch;
-import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.fml.common.FMLCommonHandler;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.event.FMLInitializationEvent;
@@ -12,7 +9,6 @@ import net.shadowkat.minecraft.jrecheck.confighandlers.IConfigHandler;
 import net.shadowkat.minecraft.jrecheck.confighandlers.MicrosoftConfigHandler;
 import net.shadowkat.minecraft.jrecheck.confighandlers.MultiMCConfigHandler;
 import org.apache.commons.io.FileUtils;
-import org.apache.commons.lang3.JavaVersion;
 import org.apache.commons.lang3.tuple.Pair;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
@@ -24,9 +20,6 @@ import java.io.IOException;
 import java.net.URI;
 import java.net.URISyntaxException;
 import java.util.List;
-import java.util.Map;
-
-import static net.minecraftforge.common.ForgeVersion.MOD_ID;
 
 @Mod(
         modid = "jre-check",

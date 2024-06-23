@@ -1,11 +1,9 @@
 package net.shadowkat.minecraft.jrecheck;
 
 import org.apache.commons.lang3.tuple.Pair;
-import org.apache.commons.lang3.tuple.Triple;
 
 import java.io.File;
 import java.io.IOException;
-import java.util.Properties;
 
 public class JREInstance {
     public File path;
